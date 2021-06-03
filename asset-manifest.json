@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my-react-website/static/css/main.fdf66aca.chunk.css",
-    "main.js": "/my-react-website/static/js/main.e4ebfde6.chunk.js",
-    "main.js.map": "/my-react-website/static/js/main.e4ebfde6.chunk.js.map",
+    "main.css": "/my-react-website/static/css/main.afa00036.chunk.css",
+    "main.js": "/my-react-website/static/js/main.e03b66be.chunk.js",
+    "main.js.map": "/my-react-website/static/js/main.e03b66be.chunk.js.map",
     "runtime-main.js": "/my-react-website/static/js/runtime-main.e24c2e90.js",
     "runtime-main.js.map": "/my-react-website/static/js/runtime-main.e24c2e90.js.map",
     "static/css/2.44bc557e.chunk.css": "/my-react-website/static/css/2.44bc557e.chunk.css",
@@ -10,8 +10,9 @@
     "static/js/2.0c78294f.chunk.js.map": "/my-react-website/static/js/2.0c78294f.chunk.js.map",
     "index.html": "/my-react-website/index.html",
     "static/css/2.44bc557e.chunk.css.map": "/my-react-website/static/css/2.44bc557e.chunk.css.map",
-    "static/css/main.fdf66aca.chunk.css.map": "/my-react-website/static/css/main.fdf66aca.chunk.css.map",
+    "static/css/main.afa00036.chunk.css.map": "/my-react-website/static/css/main.afa00036.chunk.css.map",
     "static/js/2.0c78294f.chunk.js.LICENSE.txt": "/my-react-website/static/js/2.0c78294f.chunk.js.LICENSE.txt",
+    "static/media/laptop.7f302e0f.jpg": "/my-react-website/static/media/laptop.7f302e0f.jpg",
     "static/media/logo.6ce24c58.svg": "/my-react-website/static/media/logo.6ce24c58.svg",
     "static/media/my-photo.9b9e12bc.jpg": "/my-react-website/static/media/my-photo.9b9e12bc.jpg"
   },
@@ -19,7 +20,7 @@
     "static/js/runtime-main.e24c2e90.js",
     "static/css/2.44bc557e.chunk.css",
     "static/js/2.0c78294f.chunk.js",
-    "static/css/main.fdf66aca.chunk.css",
-    "static/js/main.e4ebfde6.chunk.js"
+    "static/css/main.afa00036.chunk.css",
+    "static/js/main.e03b66be.chunk.js"
   ]
 }
