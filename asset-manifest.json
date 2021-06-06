@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-react-website/static/css/main.c58b1cc0.chunk.css",
+    "main.css": "/my-react-website/static/css/main.0571bc55.chunk.css",
     "main.js": "/my-react-website/static/js/main.722ad0ad.chunk.js",
     "main.js.map": "/my-react-website/static/js/main.722ad0ad.chunk.js.map",
     "runtime-main.js": "/my-react-website/static/js/runtime-main.e24c2e90.js",
@@ -10,7 +10,7 @@
     "static/js/2.4a9baee4.chunk.js.map": "/my-react-website/static/js/2.4a9baee4.chunk.js.map",
     "index.html": "/my-react-website/index.html",
     "static/css/2.44bc557e.chunk.css.map": "/my-react-website/static/css/2.44bc557e.chunk.css.map",
-    "static/css/main.c58b1cc0.chunk.css.map": "/my-react-website/static/css/main.c58b1cc0.chunk.css.map",
+    "static/css/main.0571bc55.chunk.css.map": "/my-react-website/static/css/main.0571bc55.chunk.css.map",
     "static/js/2.4a9baee4.chunk.js.LICENSE.txt": "/my-react-website/static/js/2.4a9baee4.chunk.js.LICENSE.txt",
     "static/media/laptop.7f302e0f.jpg": "/my-react-website/static/media/laptop.7f302e0f.jpg",
     "static/media/logo.6ce24c58.svg": "/my-react-website/static/media/logo.6ce24c58.svg",
@@ -21,7 +21,7 @@
     "static/js/runtime-main.e24c2e90.js",
     "static/css/2.44bc557e.chunk.css",
     "static/js/2.4a9baee4.chunk.js",
-    "static/css/main.c58b1cc0.chunk.css",
+    "static/css/main.0571bc55.chunk.css",
     "static/js/main.722ad0ad.chunk.js"
   ]
 }
