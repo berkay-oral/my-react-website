@@ -1,0 +1,55 @@
+{ 
+    
+"portfoliodatas" : [
+    {
+        "id":1,
+        "name":"Calculator App",
+        "type":"app",
+        "logo":"fa fa-calculator",
+        "url": "#"
+    },
+
+    {
+        "id":2,
+        "name": "Slider App",
+        "type":"app",
+        "logo":"fa fa-sliders",
+        "url": "#"
+    },
+
+    {
+        "id":3,
+        "name":"Berkay Oral",
+        "type":"website",
+        "logo":"fa fa-calculator",
+        "url": "#"
+    },
+
+
+    {
+        "id":4,
+        "name":"Calculator App",
+        "type":"website",
+        "logo":"fa fa-calculator",
+        "url": "#"
+    },
+
+    {
+        "id":5,
+        "name":"Laluna Sport",
+        "type":"job",
+        "logo":"fa fa-calculator",
+        "url" : "#"
+    },
+
+    {
+        "id":6,
+        "name":"SAFSDFSDFSDF Sport",
+        "type":"job",
+        "logo":"fa fa-calculator",
+        "url" : "#"
+    }
+
+]
+
+}

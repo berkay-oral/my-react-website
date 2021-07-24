@@ -1,0 +1,187 @@
+
+#pop-up{
+  margin: 0;
+  background-color: rgba(0, 0,0, .7);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height:100%;
+  width: 100%;
+  overflow: hidden;
+  /* color: rgb(20, 30, 35); */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index:90;  
+}
+
+.popup-content-left{
+    background-color: #1f2235;
+    text-align: center;
+    height: auto;
+}
+
+.popup-content-right{
+    background-color: white;
+    height: 100%;
+    padding: 1rem 1rem;
+}
+
+.popup-content-right h3{
+    color: #ff4a57;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.closeBtn{
+    position: relative;
+    cursor: pointer;
+}
+
+.closePopup{
+    color: #ff4a57;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2rem;
+}
+
+.inform{
+    border-left: 2px solid #ff4a57;
+    margin-top: -2px;
+    position: relative;
+    padding: 0 0 20px  20px;
+}
+
+.inform::before{
+    content : "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #ff4a57;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #ff4a57;
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ff4a57;
+    border-radius: 8px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff4a57;
+  }
+    
+
+
+/*DEĞİŞENLER*/
+/*BAŞLANGIÇ*/
+/*responsive boyuta göre değişen stiller*/
+/* maximum 320px e kadar */
+@media  (min-width: 10px) { 
+
+    .myName, .webDeveloper{
+        font-size: 1rem;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    #pop-up .myPhoto{
+        max-width: 30%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+
+      .pop-up .container{
+        width: 90%;
+        height: 370px;
+    }
+
+    .cv-area{
+        padding-left: .4rem;
+        height: 270px;
+        overflow-y:scroll;
+    }
+
+
+}
+
+
+ /*320px ve üstü*/
+ @media  (min-width: 320px) { 
+    .pop-up .container{
+       height: 480px;
+    }
+ }
+ 
+ 
+ /* 576px ve üstü*/
+ @media (min-width: 576px) { 
+ 
+  }
+ 
+ 
+ /*768px ve üstü*/
+ @media (min-width: 768px) { 
+     .myName, .webDeveloper{
+        font-size: 1rem;
+    }
+
+    #pop-up  .myPhoto{
+        max-width: 60%;
+    }
+
+    .pop-up .container{
+        width: 700px;
+        height: 500px;
+    }
+
+    .myName, .webDeveloper{
+        font-size: 1.2rem;
+    }
+
+    .cv-area{
+        padding-left: .4rem;
+        height: 500px;
+    }
+  }
+ 
+ 
+ /* 992px ve üstü*/
+ @media (min-width: 992px) { 
+    .pop-up .container{
+        width: 950px;
+    }
+  }
+ 
+ 
+ /*1200px ve üstü*/
+ @media (min-width: 1200px) { 
+ 
+  }
+ 
+ 
+ /*1400px ve üstü*/
+ @media (min-width: 1400px) { 
+
+  }

@@ -1,0 +1,118 @@
+#menu{
+    background-color: #1f2235;
+    position: fixed;
+    z-index: 10;
+  
+    
+}
+.menu{
+width: 350px;
+height: 100vh;
+top: 50px;
+right: -350px;
+display: flex;
+flex-direction: column;
+transition: all 1s ease;
+opacity: 0;
+
+/*ortalar dikey yatay*/
+ align-items: center;
+justify-content: center;
+/*ortalar dikey yatay*/
+}
+
+.menu.active{
+right: 0;
+opacity: 1;
+}
+.menu ul{
+
+list-style-type: none;
+}
+
+.menu ul li{
+width: 100%; 
+text-align: center;
+}
+
+.menu ul li a{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .6s all ease-out;
+}
+
+.menu ul li a:hover{
+    color: #ff4a57;
+}
+
+
+.menu ul li::after{
+content: '';
+left: 0;
+width: 100%;
+border: 1px solid white;
+display: block;
+position: absolute;
+display: block;
+transform: scaleX(0);
+transition: .6s all ease;
+opacity: 1;
+
+}
+
+.menu ul li:hover::after{
+transform: scaleX(.4);
+border: 1px solid #ff4a57;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .menu ul li a{
+        font-size: 1.6rem;
+
+    }
+}
+
+
+@media screen and  (max-width:768px){
+    .menu ul li a{
+        font-size: 1.4rem;
+    }
+}
+
+
+/* en son 601 px e kadar*/
+@media screen and ( max-width: 601px){
+
+
+
+}
+
+@media screen and (max-width: 414px){
+.menu{
+    width: 60%;
+}
+.menu ul{
+    position: relative;
+    top: -50px;
+}
+}
+
+
+/*  en son 360px e kadar*/
+@media screen and ( max-width: 360px){
+
+.menu{
+    top: 50px;
+}
+#menu ul li a{
+    font-size: 1.2rem;
+}
+
+
+}

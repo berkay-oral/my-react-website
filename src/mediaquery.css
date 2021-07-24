@@ -1,0 +1,75 @@
+/*
+X-Small	None	           <576px
+Small	  sm	             ≥576px
+Medium	md	             ≥768px
+Large	  lg	             ≥992px
+Extra   large	xl	       ≥1200px
+Extra   extra large	xxl	 ≥1400px
+*/
+
+
+/* 1400 px ve üstü*/
+@media (min-width: 1400px) {
+ 
+    h1::before{
+      content:  "1400px >";
+      color: red;
+    }
+  }
+  
+  
+  
+  /* en son 1400px e kadr */
+  @media (max-width: 1400px) {
+    h1::before{
+      content:  "1400px";
+      color: red;
+    }
+    }
+  
+  
+  
+  /* en son 1200 px e kadr*/
+  @media (max-width: 1200px) {
+    h1::before{
+      content:  "1200px";
+      color: red;
+    }
+    }
+  
+  
+  
+  /* en son 992px e kadar */
+  @media (max-width: 992px) { 
+    h1::before{
+      content:  "992px";
+      color: red;
+    }
+   }
+  
+  
+  
+  /* en son 768px e kadar */
+  @media (max-width: 768px) { 
+    h1::before{
+      content:  "768px";
+      color: red;
+    }
+   }
+  
+  
+  /* en son 576px e kadar */
+  @media (max-width: 576px) {
+        h1::before{
+          content:  "576px";
+          color: red;
+        }
+    }
+  
+  /*  en son  320 px e kadar*/
+  @media (max-width: 320px) { 
+        h1::before{
+          content:  "320px";
+          color: red;
+        }
+   }

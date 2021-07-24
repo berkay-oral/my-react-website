@@ -1,0 +1,100 @@
+#slider{
+    background-color: #24263b;
+}
+
+
+#slider .container{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .slider-area {
+    position: relative;
+    max-width: 700px;
+    margin: 25px auto;
+    height: 350px;/*TAM YÜKSEKLİK İÇİN 100vh*/
+    overflow: hidden; 
+    border-radius: 25px;
+ 
+  }
+
+  .slides {
+    position: absolute;
+    top: -25;
+    left: 0;
+   /* width: 300%; KAC SLİDER VARSA  4 TANE İSE 400% 3 TANE İSE 300%*/  /*  --- BU DA OLUR*/
+    /*width:  calc(100% * 5) ;BU DA OLUR*/
+    width: 500%;
+    height: 350px;
+    transition: .8s ease;
+    text-align: center;
+    align-items: center;
+    
+
+  }
+
+
+  .slide-box {
+    width: 20%!important;/*100 / 4 kaç */
+    height: 100%!important;
+
+    float: left!important;
+    position: relative!important;
+    
+    border: none;
+  }
+
+
+
+  .arrows-container{
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    transition:  0.4 linear;
+    background-color: transparent!important;
+    
+  }
+
+
+  .clearfix::after{
+    clear: both;
+    content: "";
+  }
+
+
+  
+  .nextIcon, .prevIcon{
+    cursor: pointer;
+    font-size: 3rem;
+    background-color: transparent!important;
+    color: #ff4a57;
+    transition: .3s ease-in-out;
+ }
+ 
+
+ .nextIcon:hover, .prevIcon:hover{
+   transform: scale(1.5);
+ }
+
+ .nextIcon{
+  float: right;
+  padding-right: 0.5rem;
+
+ 
+ }
+ .prevIcon{
+   float: left;
+   padding-left: 0.5rem;
+ }
+
+
+ .softwareLogo{  
+    max-height: 250px;
+     max-width: 250px;
+     margin: 25px auto;
+ }
+
+
+

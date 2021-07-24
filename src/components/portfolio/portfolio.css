@@ -1,0 +1,105 @@
+#portfolio{
+    background-color: #1f2235;
+}
+
+#portfolio .container{
+    /* border: 2px solid red; */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .card-body{
+      background-color: #24263b;
+      cursor: pointer;
+      text-align: center;
+      padding: 3rem;
+  }
+
+  .portfolio-btns ul{
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      
+  }
+ 
+  .portfolio-btns li{
+            width: 250px;
+            margin: 0 2rem;
+            padding: 0;   
+            border:3px solid #ff4a57;
+            border-radius: 9px;
+            cursor: pointer;
+            display: block; 
+            text-align: center;
+            text-decoration: none;
+            text-transform: capitalize;
+            margin: 1rem auto;
+            color: aliceblue;
+            font-weight: 700;
+            font-size: 1.1rem;
+    }
+
+
+
+
+
+  .card-body .logoContent .logo{
+        color: #ff4a57;
+        font-size: 2.5rem;
+  }
+
+
+
+.card-body .logoContent{
+    display: inline-block;
+    transform: scaleX(-1);
+    transition: all .5s  ease-out ;
+}
+
+.card-body:hover .logoContent{
+    transform: scaleX(1);
+}
+.card-body .card-title{
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: .8rem;
+}
+
+
+.card-body .projectBtn{
+    padding: .5rem;
+    outline: none;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff4a57;
+}
+
+.card-body .projectBtn:hover{
+    color: #ff4a57;
+    background-color: #fff;
+}
+
+
+ 
+  .portBtn{
+      color: white;
+      background-color: #24263b;
+  }
+
+  .portBtn.active{
+     background-color: #ff4a57;
+  }
+
+
+
+  @media (max-width: 768px) { 
+    .portfolio-btns li{
+        margin: 0;
+        border-radius:0px;
+}
+
+}

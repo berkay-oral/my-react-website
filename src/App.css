@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+
+html{
+  font-size: 16px;/* rem kullanılacak (1rem = 16px i baz alacak)*/
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+.container-titles{
+  margin-bottom: 3rem;
+  position: relative;
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container-titles::after{
+  content: " ";
+  border: 1px solid  #ff4a57;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  transform: scaleX(0); 
+  transition: .5s  all ease;
 }
 
-.App-link {
-  color: #61dafb;
+#about:hover .container-titles::after{
+  transform: scaleX(.3);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#slider:hover .container-titles::after{
+  transform: scaleX(.3);
 }
+
+#portfolio:hover .container-titles::after{
+  transform: scaleX(.3);
+}
+
+#contact:hover .container-titles::after{
+  transform: scaleX(.3);
+}
+
+
+
+/*
+X-Small	None	           <576px
+Small	  sm	             ≥576px
+Medium	md	             ≥768px
+Large	  lg	             ≥992px
+Extra   large	xl	       ≥1200px
+Extra   extra large	xxl	 ≥1400px
+*/
+
+
+/*maximum 320px e kadar*/
+@media (min-width: 10px) { 
+  /* strong::before{
+    font-size: 32px;
+    content:  " < 320px";
+    color: rgb(124, 161, 3);
+  } */
+
+  h2, h3, h4, h5, h6{
+
+    color: #fff;
+    font-size: 1.9rem;
+    font-weight: bold;
+
+}
+}
+/* 320px ve üstü*/
+@media (min-width: 320px) { 
+  /* strong::before{
+    font-size: 32px;
+    z-index: 12000;
+    position: absolute;
+    content:  "320px>";
+    color: rgb(255, 0, 234);
+  } */
+}
+
+
+/* 576px ve üstü*/
+@media (min-width: 576px) { 
+        /* strong::before{
+        
+          content:  "576>";
+          color: red;
+        } */
+ }
+
+
+/*768px ve üstü*/
+@media (min-width: 768px) { 
+  /* strong::before{
+    content:  "768>";
+    color: rgb(0, 68, 255);
+  } */
+
+
+  h2, h3, h4, h5, h6{
+
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: bold;
+
+}
+ }
+
+
+/* 992px ve üstü*/
+@media (min-width: 992px) { 
+  /* strong::before{
+    content:  "992px>";
+    color: rgb(225, 0, 255);
+  } */
+ }
+
+
+/*1200px ve üstü*/
+@media (min-width: 1200px) { 
+  /* strong::before{
+    content:  "1200>";
+    color: rgb(9, 255, 0);
+  } */
+ }
+
+
+/*1400px ve üstü*/
+@media (min-width: 1400px) { 
+  /* strong::before{
+    content:  "1400px >";
+    color: rgb(255, 123, 0);
+  } */
+ }

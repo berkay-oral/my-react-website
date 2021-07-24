@@ -1,0 +1,152 @@
+
+
+/*değişmeyenler*/
+#home{
+
+}
+
+
+
+#home .arrowDownIcon{
+    font-size: 2.3rem;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;    
+    left: 0;
+    width: 100%;
+    text-align: center;
+    animation: downArrowAni 1s infinite;
+}
+@keyframes downArrowAni{
+    100%{
+          opacity: 0;
+    }
+}
+
+
+.ityped-cursor{
+    animation: blink .8s infinite;
+    font-weight: bold;
+}
+
+@keyframes blink{
+   50%{
+        opacity: 1;
+   }
+   100%{
+       opacity: 0;
+   }
+}
+
+
+
+.home-text h2,  h3{
+  font-weight: 400;
+  padding: 0;
+  margin: 0; 
+}
+
+#home  span, h1{
+      padding: 0;
+      margin: 0;
+      font-weight: 700;
+}
+
+.home-img img{
+    border: 3px solid #ff4a57;
+}
+
+
+
+/*DEĞİŞENLER*/
+/*BAŞLANGIÇ*/
+/*responsive boyuta göre değişen stiller*/
+/* maximum 320px e kadar */
+  @media  (min-width: 10px) { 
+     .myPhoto{
+         max-width: 8rem;
+     }
+
+     .home-text{
+         margin-top: 1.5rem;
+         text-align: center;
+    }
+
+    .home-text h1{
+        font-size: 1.8rem;
+    }
+    .home-text h2, h3{
+        font-size: 1rem;
+        padding-top: 0.5rem;
+    }
+}
+
+
+  /*320px ve üstü*/
+  @media  (min-width: 320px) { 
+    .myPhoto{
+        max-width: 10rem;
+    }
+
+ 
+
+   .home-text h1{
+       font-size: 2.4rem;
+   }
+   .home-text h2, h3{
+       font-size: 1.3rem;
+       padding-top: 0.5rem;
+   }
+ 
+  }
+  
+  
+  /* 576px ve üstü*/
+  @media (min-width: 576px) { 
+  
+   }
+  
+  
+  /*768px ve üstü*/
+  @media (min-width: 768px) { 
+        .home-text{
+            margin-top: 0;
+            text-align: start;
+        }
+   }
+  
+  
+  /* 992px ve üstü*/
+  @media (min-width: 992px) { 
+ 
+    .home-text h1{
+        font-size: 3.1rem;
+    }
+    .home-text h2,  h3{
+        font-size: 1.6rem;
+    }
+   }
+  
+  
+  /*1200px ve üstü*/
+  @media (min-width: 1200px) { 
+    .myPhoto{
+        max-width: 18rem;
+    }
+
+    .home-text h1{
+        font-size: 3.8rem;
+    }
+
+
+    .home-text h2,  h3{
+        font-size: 1.9em;
+    }
+   }
+  
+  
+  /*1400px ve üstü*/
+  @media (min-width: 1400px) { 
+ 
+   }

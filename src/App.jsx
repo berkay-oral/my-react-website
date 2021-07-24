@@ -1,9 +1,15 @@
 import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './App.css';
+import Mainpage from '../src/components/mainpage/Mainpage'
 
 function App() {
   return (
-                 <h1>deneme</h1>
+            <>
+                 <strong></strong>
+                 <Mainpage/>
+            </>
   );
 }
 
